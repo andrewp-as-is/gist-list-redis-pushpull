@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  django:
+    image: gist-list-redis-helper:latest
+    container_name: gist-list-redis-helper
+    env_file:
+      - .env
